@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Javascript example 2</title>
+	<script>
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
+e.addEventListener("click", function() {
+    
+    
+var url = document.getElementById("url").value;
+    
+    
+window.open(url,"popUpWindow","height=500, width=400, left=100, top=100, resizable=yes, scrollbars=yes, toolbar=yes, menubar=no, location=no, directories=no, status=yes");
+    
+  }, false);
+  
+});
+</script>
+
+
+<form name="popupForm" action="{action page}">
+  <input name="url"  id="url" value="/javascript/examples/sample_popup.cfm">
+  <input name="go" id="go" type="button" value="Go">
+</form>
+</head>
+<body>
+
+</body>
+</html>
